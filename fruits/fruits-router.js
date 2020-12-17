@@ -1,6 +1,7 @@
 const express = require("express")
-const knex = require("knex")
 
+// Temporary until Knex is configured in the project
+const knex = require("knex")
 const db = knex({
 	client: "sqlite3",
 	useNullAsDefault: true,
